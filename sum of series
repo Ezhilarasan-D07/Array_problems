@@ -1,8 +1,12 @@
 # SUM OF THE SERIES 
-def seriesSum(self,n):
+def seriesSum(n):
+
     # method 1 
-    
-    # s = n*(n+1)//2
-    # return s
+    s = n*(n+1)//2
+    return s
+
     # method 2
     return (n*(n+1)//2)
+
+n = 5
+print(seriesSum(n))
